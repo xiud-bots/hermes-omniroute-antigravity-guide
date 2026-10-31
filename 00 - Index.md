@@ -32,6 +32,9 @@
 │   └── [[04 - Operação & Troubleshooting/04.3 - Padronização de Subagentes e Perfis|04.3 - Padronização para Subagentes e Perfis]]
 │
 └── 05 - Anexos & Referências
+    ├── [[05 - Anexos & Referências/Perfis Base/README|Perfis Base de Fundação: Forge & Potz]]
+    │   ├── [[05 - Anexos & Referências/Perfis Base/SOUL-Forge|SOUL.md do Forge (Platform & SRE)]]
+    │   └── [[05 - Anexos & Referências/Perfis Base/SOUL-Potz|SOUL.md da Potz (Agent Resources)]]
     ├── [[05 - Anexos & Referências/Arquivo config.yaml Explicado|Template config.yaml Comentado]]
     ├── [[05 - Anexos & Referências/Arquivo .env Explicado|Template .env Comentado]]
     └── [[05 - Anexos & Referências/Unit omniroute.service Explicada|Unit omniroute.service Comentada]]
