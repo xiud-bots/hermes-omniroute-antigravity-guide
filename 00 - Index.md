@@ -19,7 +19,8 @@
 │   ├── [[02 - Instalação & Configuração/02.4 - Model Combo Antigravity-Smart|02.4 - Configuração do Combo Antigravity-Smart]]
 │   ├── [[02 - Instalação & Configuração/02.5 - Chaves de API e Isolamento|02.5 - Emissão de Chaves de API & Segurança]]
 │   ├── [[02 - Instalação & Configuração/02.6 - Daemon Systemd de Usuário|02.6 - Provisionamento do Serviço Systemd]]
-│   └── [[02 - Instalação & Configuração/02.7 - Configuração do Hermes Agent|02.7 - Configuração Completa do Hermes Agent]]
+│   ├── [[02 - Instalação & Configuração/02.7 - Configuração do Hermes Agent|02.7 - Configuração Completa do Hermes Agent]]
+│   └── [[02 - Instalação & Configuração/02.8 - Instalação e Configuração no Windows|02.8 - Guia de Instalação e Setup no Windows]]
 │
 ├── 03 - Validação & Smoke Tests
 │   ├── [[03 - Validação & Smoke Tests/03.1 - Testes Automatizados (Script)|03.1 - Execução do Script de Smoke Test]]
