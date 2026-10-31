@@ -1,0 +1,34 @@
+# ==============================================================================
+# Exemplo de Configuração do Hermes Agent conectado ao OmniRoute (Antigravity)
+# Arquivo de Destino: ~/.hermes/config.yaml
+# ==============================================================================
+
+model:
+  default: Antigravity-Smart
+  provider: openai-api
+  base_url: http://127.0.0.1:20128/v1
+  api_mode: codex_responses
+
+# Configuração de subagentes (delegate_task)
+delegation:
+  model: Antigravity-Smart
+  provider: openai-api
+  base_url: http://127.0.0.1:20128/v1
+  max_iterations: 250
+  child_timeout_seconds: 600
+
+# Backend de terminal (local para acesso direto ao host, ou docker para sandbox)
+terminal:
+  backend: local
+  timeout: 180
+
+# Gerenciamento de contexto e compressão
+compression:
+  enabled: true
+  threshold: 0.5
+  target_ratio: 0.2
+
+# Políticas de aprovação
+approvals:
+  mode: smart
+  timeout: 60

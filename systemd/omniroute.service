@@ -1,0 +1,27 @@
+[Unit]
+Description=OmniRoute AI Gateway & Proxy Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h
+
+# Garante que o Node.js e executáveis em ~/.local/bin tenham prioridade
+Environment="PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin"
+Environment="PORT=20128"
+Environment="NODE_ENV=production"
+
+# Executável do OmniRoute instalado globalmente ou em ~/.local/bin
+ExecStart=%h/.local/bin/omniroute
+
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+# Limite de descritores de arquivos para proxies com alto tráfego
+LimitNOFILE=65536
+
+[Install]
+WantedBy=default.target
