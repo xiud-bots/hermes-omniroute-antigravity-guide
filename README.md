@@ -4,10 +4,47 @@
 [![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-Nous_Research-purple.svg)](https://github.com/NousResearch/hermes-agent)
 [![OmniRoute](https://img.shields.io/badge/OmniRoute-AI_Gateway-green.svg)](https://github.com/diegosouzapw/OmniRoute)
 [![Google Antigravity](https://img.shields.io/badge/Google-Antigravity-orange.svg)](https://deepmind.google/)
+[![Obsidian Vault](https://img.shields.io/badge/Obsidian-Native_Vault-purple.svg)](https://obsidian.md/)
+
+> 📖 **Este repositório é estruturado nativamente como um Obsidian Vault!**  
+> Para a melhor experiência de leitura humana, navegação em grafo e links bidirecionais:
+> 1. Clone este repositório: `git clone https://github.com/xiud-bots/hermes-omniroute-antigravity-guide.git`
+> 2. No Obsidian, selecione **Open folder as vault** e aponte para esta pasta.
+> 3. Acesse a nota central do cofre: **[[00 - Index]]** (ou navegue pelas pastas estruturadas).
+
+---
 
 Este repositório contém o tutorial completo, scripts operacionais e templates de infraestrutura para provisionar e integrar o **Hermes Agent** ao **Google Antigravity** através do gateway inteligente **OmniRoute**.
 
 Essa arquitetura permite que agentes autônomos locais e subagentes executem inferência de ponta a ponta com modelos Gemini de alta performance (`gemini-3.8-flash-high`, `gemini-3.7-flash-tiered`) de forma resiliente, gratuita e com failover automático.
+
+---
+
+## 🗺️ Mapa de Conteúdo do Vault (MOC)
+
+- **[[00 - Index|00 - Dashboard & Central de Navegação]]**
+- **01 - Visão Geral & Arquitetura:**
+  - [[01 - Visão Geral/01.1 - Topologia e Arquitetura|01.1 - Topologia e Arquitetura da Solução]]
+  - [[01 - Visão Geral/01.2 - Benefícios do Ecossistema|01.2 - Por Que OmniRoute + Antigravity?]]
+- **02 - Instalação & Configuração:**
+  - [[02 - Instalação & Configuração/02.1 - Google Antigravity CLI|02.1 - Instalação do Antigravity CLI]]
+  - [[02 - Instalação & Configuração/02.2 - OmniRoute AI Gateway|02.2 - Instalação do OmniRoute]]
+  - [[02 - Instalação & Configuração/02.3 - Provedor Antigravity no OmniRoute|02.3 - Conexão OAuth Antigravity (agy)]]
+  - [[02 - Instalação & Configuração/02.4 - Model Combo Antigravity-Smart|02.4 - Configuração do Combo Antigravity-Smart]]
+  - [[02 - Instalação & Configuração/02.5 - Chaves de API e Isolamento|02.5 - Emissão de Chaves de API & Segurança]]
+  - [[02 - Instalação & Configuração/02.6 - Daemon Systemd de Usuário|02.6 - Provisionamento do Serviço Systemd]]
+  - [[02 - Instalação & Configuração/02.7 - Configuração do Hermes Agent|02.7 - Configuração Completa do Hermes Agent]]
+- **03 - Validação & Smoke Tests:**
+  - [[03 - Validação & Smoke Tests/03.1 - Testes Automatizados (Script)|03.1 - Execução do Script de Smoke Test]]
+  - [[03 - Validação & Smoke Tests/03.2 - Testes Manuais (cURL & Hermes CLI)|03.2 - Verificação Manual via cURL e CLI]]
+- **04 - Operação & Troubleshooting:**
+  - [[04 - Operação & Troubleshooting/04.1 - Guia de Solução de Problemas|04.1 - Matriz de Resolução de Erros]]
+  - [[04 - Operação & Troubleshooting/04.2 - Manutenção e Rotação de Tokens|04.2 - Manutenção e Ciclo de Vida de Tokens]]
+  - [[04 - Operação & Troubleshooting/04.3 - Padronização de Subagentes e Perfis|04.3 - Padronização para Subagentes e Perfis]]
+- **05 - Anexos & Referências:**
+  - [[05 - Anexos & Referências/Arquivo config.yaml Explicado|Template config.yaml Comentado]]
+  - [[05 - Anexos & Referências/Arquivo .env Explicado|Template .env Comentado]]
+  - [[05 - Anexos & Referências/Unit omniroute.service Explicada|Unit omniroute.service Comentada]]
 
 ---
 

@@ -6,3 +6,5 @@ dist/
 build/
 coverage/
 tmp/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
