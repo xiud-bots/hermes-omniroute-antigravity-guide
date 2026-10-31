@@ -1,0 +1,23 @@
+[Unit]
+Description=Hermes Agent Multi-Platform Gateway Service
+After=network-online.target tailscaled.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/.hermes
+EnvironmentFile=-%h/.hermes/.env
+
+# Caminho do executável do Hermes no usuário local
+ExecStart=%h/.local/bin/hermes gateway run
+
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Limite de descritores de arquivos
+LimitNOFILE=65536
+
+[Install]
+WantedBy=default.target

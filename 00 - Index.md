@@ -20,7 +20,8 @@
 │   ├── [[02 - Instalação & Configuração/02.5 - Chaves de API e Isolamento|02.5 - Emissão de Chaves de API & Segurança]]
 │   ├── [[02 - Instalação & Configuração/02.6 - Daemon Systemd de Usuário|02.6 - Provisionamento do Serviço Systemd]]
 │   ├── [[02 - Instalação & Configuração/02.7 - Configuração do Hermes Agent|02.7 - Configuração Completa do Hermes Agent]]
-│   └── [[02 - Instalação & Configuração/02.8 - Instalação e Configuração no Windows|02.8 - Guia de Instalação e Setup no Windows]]
+│   ├── [[02 - Instalação & Configuração/02.8 - Instalação e Configuração no Windows|02.8 - Guia de Instalação e Setup no Windows]]
+│   └── [[02 - Instalação & Configuração/02.9 - Gateway na Oracle Cloud (Ampere Always Free)|02.9 - Gateway Remoto na Oracle Cloud (Ampere Always Free)]]
 │
 ├── 03 - Validação & Smoke Tests
 │   ├── [[03 - Validação & Smoke Tests/03.1 - Testes Automatizados (Script)|03.1 - Execução do Script de Smoke Test]]
